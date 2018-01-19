@@ -1,0 +1,93 @@
+.l2{
+   width="200";
+   float: left;
+}
+
+body{
+  font-family: 'Kavivanar';
+    background-color: #442D4B;
+    color:white;
+
+  }
+header{
+  padding: 40px;
+  height: 50px;
+}
+header ul li{
+  display: inline-block;
+  padding: 10px 15px;
+
+}
+header ul li a {
+  color: #ffcb59;
+  text-decoration: none;
+}
+
+
+footer{
+  padding: 20px;
+  background-color: #000000;
+
+}
+.footicon{
+  width: 40px;
+  height: 45px;
+}
+
+#footlogo{
+  width: 200px;
+
+  float: right;
+
+}
+.fright{
+  float: right;
+}
+.clearfix{
+  clear: both;
+}
+
+.form1{
+  width: 500px;
+  margin: 0 auto;
+
+}
+.form1 h2{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.form1 label, .form1 input{
+  display:block;
+}
+.form1 input, .form1 textarea,.form1 select{
+width: 100%;
+  background: #442D4B;
+  border: 1px solid white;
+  color: white;
+  margin: 15px 0 15px;
+  font-family: 'Kavivanar';
+  padding: 0 5px;
+  font-size: 19px;
+
+}
+.b1{
+  display: block;
+  background-color: orange;
+margin: auto;
+width: 3cm;
+height: 1cm;
+font-size: 20px;
+
+
+}
+
+.divide{
+  padding-left: 10px;
+  display:inline-block;
+  width: 48%;
+}
+.language_div{
+  padding-right: 10px;
+  padding-left: 0px;
+}
