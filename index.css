@@ -1,0 +1,116 @@
+
+
+/* HOMEPAGE CSS */
+section{
+    padding: 0 40px;
+    padding-bottom: 84px;
+}
+.category{
+    margin-bottom: 40px;
+}
+.categoryName {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.movie {
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.movie .poster {
+    width: 180px;
+    height: 230px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    margin-bottom: 15px;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.l2{
+   width="200";
+   float: left;
+}
+.fright{
+  float: right;
+}
+footer{
+  padding: 20px;
+  background-color: #000000;
+
+}
+.footicon{
+  width: 40px;
+  height: 45px;
+}
+
+#footlogo{
+  width: 200px;
+
+  float: right;
+
+}
+header{
+  padding: 40px;
+  height: 50px;
+}
+header ul li{
+  display: inline-block;
+  padding: 10px 15px;
+
+}
+header ul li a {
+  color: #ffcb59;
+  text-decoration: none;
+}
+body{
+  font-family: 'Risque', cursive;
+    background-color: #442D4B;
+    color:white;
+
+  }
+
+.details {
+    width: 180px;
+    /* margin: 0 auto; */
+}
+.details .yearOfRelease {
+    margin: 5px 0;
+    font-size: 0.8rem;
+}
+
+.details .name{
+    margin: 5px 0;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.stars .star {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+}
+
+.star-full {
+    background-image: url("../images/star-full.png");
+}
+
+.star-half {
+    background-image: url("../images/star-half.png");
+}
+
+.star-empty {
+    background-image: url("../images/star-empty.png");
+}
