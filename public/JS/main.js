@@ -1,6 +1,6 @@
 $.ajax({
   type: "GET",
-  url: "movies/all",
+  url: "/movies/all",
   dataType: "json",
   success: function(response){
                 var data = formObj(response.data);
